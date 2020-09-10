@@ -1,0 +1,9 @@
+import 'package:stacked/stacked.dart';
+
+class StartUpViewModel extends BaseViewModel{
+  String _title='StartUp View';
+  String get title=> '$_title : $_counter';
+
+  int _counter=0;
+  int get counter=>_counter;
+}
