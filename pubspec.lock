@@ -228,6 +228,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  get:
+    dependency: transitive
+    description:
+      name: get
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.10.2"
   get_it:
     dependency: "direct main"
     description:
@@ -485,6 +492,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.7.6"
+  stacked_services:
+    dependency: "direct main"
+    description:
+      name: stacked_services
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.5.4+2"
   stream_channel:
     dependency: transitive
     description:

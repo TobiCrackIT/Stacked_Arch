@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stacked_services/stacked_services.dart';
 import 'package:starter/app/locator.dart';
 import 'package:starter/app/router.gr.dart';
 import 'package:starter/ui/views/home/home_view.dart';
@@ -16,13 +17,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomeView(),
       onGenerateRoute: Router().onGenerateRoute,
-      //navigatorKey: ,
+      navigatorKey: locator<NavigationService>().navigatorKey,
     );
   }
 }
