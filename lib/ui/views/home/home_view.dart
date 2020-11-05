@@ -6,6 +6,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ViewModelBuilder<HomeViewModel>.reactive(
+      disposeViewModel: false,
       builder: (context,model,child){
         return Scaffold(
           body: Center(

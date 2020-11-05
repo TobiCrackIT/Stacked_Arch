@@ -34,8 +34,8 @@ dependencies:
   get_it: ^4.0.4
   http: ^0.12.0+4
   image_picker: ^0.6.6+4
-  stacked: ^1.7.5
-  stacked_services: ^0.5.1
+  stacked: ^1.7.6
+  stacked_services: ^0.5.4+2
 
 
 dev_dependencies:

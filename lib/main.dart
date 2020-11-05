@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:starter/app/locator.dart';
 import 'package:starter/app/router.gr.dart';
+import 'package:starter/ui/views/bottom_bar/bottom_bar_view.dart';
 import 'package:starter/ui/views/home/home_view.dart';
+import 'package:starter/ui/views/splash/splash_view.dart';
 
 void main() async{
 
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeView(),
+      home: SplashView(),
       onGenerateRoute: Router().onGenerateRoute,
       navigatorKey: locator<NavigationService>().navigatorKey,
     );
